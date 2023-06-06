@@ -22,8 +22,4 @@ Um jogo de Quiz de Trivia sobre o universo de Harry Potter, onde os jogadores po
 - Node.js
 - Docker (opcional)
 
-## Instalação
 
-1. Clone o repositório:
-   ```shell
-   git clone <URL_DO_REPOSITÓRIO>
