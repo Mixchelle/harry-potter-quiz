@@ -1,0 +1,85 @@
+body {
+  background-image: url('../img/59.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.login-container {
+  max-width: 400px;
+  width: 70%;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-title {
+  font-family: 'Harry Potter', cursive;
+  text-align: center;
+  font-size: 30px;
+  color: #d5cbcb;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: transparent;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.button-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-button,
+.signup-button {
+  background-color: #8a0303;
+  color: #fff;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-button:hover,
+.signup-button:hover {
+  background-color: #610202;
+}
+
+.login-error {
+  color: #d8000c;
+  background-color: #ffd2d2;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.hogwarts-logo {
+  display: block;
+  margin-top: 20px;
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
